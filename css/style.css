@@ -1,0 +1,12 @@
+body{text-align:center;background:#333;font-family:arial,sans-serif}
+h1{color:#fff}
+.listSongs,.reproductor{background:#fff;padding:5px;width:500px;min-height:200px;display:block;margin:10px auto;}
+.listSongs ul,.reproductor ul{list-style:none;text-align:left;}
+.listSongs ul li,.reproductor ul li{display:block;margin-bottom:5px;font-style:normal;font-size:13px;padding:4px;cursor:pointer;}
+.listSongs ul li:hover,.reproductor ul li:hover{background:#333}
+.listSongs ul li span.iconPP,.reproductor ul li span.iconPP{background:#e4e4e4;color:#333;width:10px;height:10px;padding:2px 7px 2px 7px;border-radius:50%;font-weight:bold;margin-right:5px;}
+.listSongs ul li span.iconPP:hover,.reproductor ul li span.iconPP:hover{background:#fff;color:#333}
+.listSongs ul li .playing,.reproductor ul li .playing{background:#ffa500 !important}
+.listSongs video,.reproductor video,.listSongs audio,.reproductor audio{width:100%;height:100%;margin:0}
+.listSongs audio,.reproductor audio{display:block;padding-top:120px}
+.reproductor{background-size:cover;padding:0}

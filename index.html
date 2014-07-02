@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Reproductor HTML5</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="script.js"></script>
+</head>
+<body>
+	<h1>Reproductor</h1>
+	<div class="listSongs">
+		<h2>Canciones / Videos</h2>
+		<ul>
+			<li class="song" data-id="1" data-type="song"><span class="iconPP">&#62;</span>On Melancholy Hill - Gorillaz</li>
+			<li class="song" data-id="2" data-type="song"><span class="iconPP">&#62;</span>Under Cover of Darkness - The Strokes</li>
+			<li class="song" data-id="3" data-type="song"><span class="iconPP">&#62;</span>Just - Radiohead</li>
+			<li class="song" data-id="4" data-type="video"><span class="iconPP">&#62;</span>Magic - Coldplay</li>
+			<li class="song" data-id="5" data-type="video"><span class="iconPP">&#62;</span>All of me - John Legend</li>
+		</ul>
+	</div>
+	<div class="reproductor">
+		<audio class="player" controls style="display:none"></audio>
+		<video id="video" poster="img/bakelit.jpg" controls>
+			<source src="songs/4.mp4" type='video/mp4 ; codecs="avc1.42E01E, mp4a.40.2"'></source>
+		</video>
+	</div>
+</body>
+</html>
